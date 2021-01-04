@@ -1,0 +1,172 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.registrar header{
+    background-color: orangered;
+    padding: 10px 0px;
+    margin-top: 10px;
+    overflow: hidden;
+    box-sizing: border-box;
+    align-content: space-around;
+}
+.navegar {
+    display: block;
+    float: left;
+    padding-top: 10px;
+    letter-spacing: 2px;
+    word-spacing: 10px;
+}
+body .registrar nav ul li a{
+    font-weight: lighter; 
+}
+.registro{
+    float: right;
+    display: block;
+    padding-right: 10px;
+    padding-top: 10px;
+    letter-spacing: 3px;
+    word-spacing: 10px;
+}
+.logo{
+    display:block;
+    float: left;
+    padding-left: 10px;
+}
+body{   
+    background-image: url("../img/bg-2.png");
+    width: 1140px;   
+}
+.registrar{
+    display: block;
+}
+.registrar li{
+    list-style: none;
+    display: inline;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+}
+.registrar a{
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+}
+body{
+    background-image: url("../img/bg-2.png");
+    width: 1140px;    
+}
+.registrar main{
+    display: block;
+    width: 350px;
+}
+.registrar main h1{
+    text-align: center;
+    text-transform: uppercase;
+    font-size: xx-large;
+    padding-top: 45px;
+    margin-bottom: 25px;
+    color: rgb(37, 37, 37);
+}
+.registrar main p{
+    padding: 10px 0px;
+    font-weight: bold;
+}
+.registrar main .generoTitulo{
+    padding-bottom: 20px;
+}
+.registrar main p input{
+    padding: 4px;
+    width:350px;
+    border: gray;
+}
+.registrar main .paises select{
+  border-radius: 10px;
+  padding:5px 10px; 
+}
+.registrar main .genero input {
+    width: 20px;
+}
+.registrar main .genero{
+    padding-bottom: 0px;
+    font-weight: normal;
+    padding-left: 5px;
+}
+.registrar main .hobbiTitulo{
+    margin-top: 20px;
+}
+.registrar main .hobbi{
+    padding: 0px;
+    font-weight: normal;
+    padding-left: 5px;
+    word-spacing: 5px;
+}
+.registrar main .hobbi input {
+    width: 20px;
+}
+.registrar main .comentarioTitulo{
+    margin-top: 20px;
+    font-weight: bold;
+}
+button{
+    background-color: rgb(34, 115, 255);
+    color: white;
+    border-radius: 5px;
+    padding: 5px 15px;
+    font-weight: bold;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+button:hover{
+    background-color: orangered;
+    color: white;
+}
+.registrar main .obligatorio{
+    color: red;
+    padding: 0px;
+    padding-bottom: 20px;
+    font-weight: lighter;
+    text-transform: capitalize;
+}
+#nombre, #email, #password{
+    padding: 10px;
+    margin-top: 10px;
+}
+#nombre:hover{
+    background-color: orangered;
+    border-radius: 5px;
+}
+#email:hover{
+    background-color: orangered;
+    border-radius: 5px;
+}
+#password:hover{
+    background-color: orangered;
+    border-radius: 5px;
+}
+#nombre:hover::placeholder{
+    color:white;
+}
+#email:hover::placeholder{
+    color:white;
+}
+#password:hover::placeholder{
+    color:white;
+}
+select:hover{
+    background-color: orangered;
+    color: white;
+}
+select:focus{
+    background-color: orangered;
+    color: white;
+}
+.registrar main .terminos{
+    display: block;
+    font-weight: normal;
+    padding: 10px;
+}
+.registrar main .terminos input{
+    width: 20px;
+}
